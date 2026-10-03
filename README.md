@@ -1,9 +1,9 @@
  Industrial Cyber Defense Digital Twin Platform
-Consolidated Master Blueprint | Multi-Sector Cyber Range | Purdue Architecture | Katomaran Hackathon 2026
+
 
 Enterprise-grade Industrial Cyber Range linking six independent industrial digital-twin environments under a unified cybersecurity, edge computing, telemetry, and autonomous incident-response pipeline.
 
-**Core Axiom:** `Common Cyber Defense Platform + Six Independent Industrial Digital Twins + Plant-Specific Attack Libraries`
+**Core Axiom:** `Common Cyber Defense Platform + 3 Independent Industrial Digital Twins + Plant-Specific Attack Libraries`
 
 🎯 Executive Vision
 Unlike existing testbeds (GRFICS, ICSSIM), our platform provides:
@@ -16,10 +16,7 @@ Unlike existing testbeds (GRFICS, ICSSIM), our platform provides:
 1. THERMAL - OpenPLC - Modbus:502 - Boiler-Turbine 540°C 165bar 3000RPM(now developing)
 In future 
 2. HYDRO - Penstock RTU - Modbus:503 - Dam-Francis Turbine
-3. WATER - Dosing PLC - Modbus:504 - Filtration & Dosing
-4. WIND - Pitch/Nacelle PLC - OPC-UA:4840 - DFIG Converter
-5. AUTOMOTIVE - Robot Cell Edge - OPC-UA/Modbus - Assembly Flow
-6. CHEMICAL - Reactor/SIS PLC - Modbus:506 - Ammonia Synthesis
+3. WIND - Pitch/Nacelle PLC - OPC-UA:4840 - DFIG Converter
 
 🏗️ Purdue Architecture (GNS3)
 LEVEL 4/5 (10.0.1.0/24): Kali Linux Adversary <-> OPNsense Firewall <-> Enterprise WS
